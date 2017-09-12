@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-# create a new Firefox session
+# create a new Chrome session
 driver = webdriver.Chrome()
 driver.implicitly_wait(30)
 driver.maximize_window()
